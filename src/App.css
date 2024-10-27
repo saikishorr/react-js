@@ -1,38 +1,83 @@
-.App {
+/* Reset some default browser styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0a23;
+  color: #ffffff;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coming-soon-container {
   text-align: center;
+  max-width: 600px;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.time-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.number {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.label {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  p {
+    font-size: 1rem;
+  }
+
+  .time-box {
+    min-width: 50px;
+    padding: 15px;
+  }
+
+  .number {
+    font-size: 1.5rem;
+  }
+
+  .label {
+    font-size: 0.8rem;
   }
 }
