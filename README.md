@@ -1,6 +1,7 @@
  ## CineScope - Movie Recommendation System
    
 
+
 *1. `User Registration and Authentication:`* Allow users to create accounts, log in, and manage their profiles. This enables personalized recommendations based on user preferences and viewing history.
 
 *2. `Movie Search:`* Incorporate a search feature that empowers users to explore movies by searching for titles, genres, actors, directors, or other relevant criteria.
