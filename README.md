@@ -7,3 +7,5 @@
 *3. `Movie Recommendations:`* Provide personalized movie recommendations based on user preferences, viewing history, ratings, or similar movies. Utilize algorithms like collaborative filtering, content-based filtering, or hybrid approaches.
 
 *4. `Movie Details:`* Display detailed information about each movie, including synopsis, cast, director, release date, ratings, and trailers. Include options for users to add movies to their watchlist or mark them as watched.
+
+
